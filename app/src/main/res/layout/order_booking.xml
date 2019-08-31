@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/default_element"
+
+    android:layout_width="wrap_content"
+    android:layout_height="700dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="   Online Payment"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sorry_text"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Sorry,We Will Add this Feature Soon"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:text="   Cash On Delivery"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/text_address"
+                android:hint="Enter Your Adderss here"
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_address"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/edit_phone"
+                android:hint="Phone No."
+                android:inputType="phone"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/address"
+                android:layout_toRightOf="@+id/text_phone"
+                android:hint="Enter Phone number"
+                android:inputType="phone"
+                android:padding="20dp"  />
+
+        <Button
+            android:id="@+id/calander_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_phone"
+            android:layout_marginTop="40dp"
+            android:text="Pick your time" />
+
+        <EditText
+            android:id="@+id/datePickerValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@+id/calander_button"
+            android:layout_below="@+id/text_phone"
+             android:text="Click Button" />
+
+             <Button
+                android:id="@+id/book_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/datePickerValue"
+                android:background="@drawable/button"
+                 android:layout_marginTop="50dp"
+                android:text="Book"
+                android:textSize="20dp" />
+        </RelativeLayout>>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

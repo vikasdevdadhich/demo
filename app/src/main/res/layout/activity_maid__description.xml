@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".Maid_Description">
+
+    <ImageView
+        android:id="@+id/image_id"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+         android:layout_gravity="center"
+        android:maxHeight="226dp"
+        android:maxWidth="206dp"
+        android:scaleType="centerInside"
+         android:layout_height="wrap_content"
+        android:src="@mipmap/check_maid" />
+
+    <TextView
+        android:id="@+id/name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="NAME"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/age_id"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Age: "
+        android:textStyle="italic" />
+    <RatingBar
+        android:id="@+id/rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="5"
+        android:stepSize="0.1"
+        android:layout_gravity="right"
+        android:isIndicator="true" />
+
+
+    <TextView
+        android:id="@+id/gender_id"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENDER"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/area_id"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AREA" />
+
+    <TextView
+        android:id="@+id/religion_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Religion " />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="a maid was considered the cleaning girl and for some reason was considered a “low class” job. The definition and use of the word “Maid” also seems to be changing and fading as time goes by.” S-he feels the term has a derogatory feel, as -if you are referring to a servant."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/hire_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:text="HIRE NOW" />
+</LinearLayout>
+</ScrollView>

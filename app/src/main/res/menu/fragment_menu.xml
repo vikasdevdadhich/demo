@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/frag_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="#000000"></item>
+    <item
+        android:id="@+id/frag_bookings"
+        android:title="Bookings"
+        android:icon="@drawable/ic_reorder"></item>
+    <item
+        android:id="@+id/frag_help"
+        android:title="Help Center"
+        android:icon="@drawable/ic_live_help"></item>
+    <item
+        android:id="@+id/frag_profile"
+        android:title="My Account"
+        android:icon="@drawable/ic_account"></item>
+</menu>

@@ -1,0 +1,177 @@
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+    <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/profile_pic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/profile_name"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_marginLeft="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+         />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profile_email"
+        />
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text_bookings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"
+                android:text="Your Bookings  "
+                />
+            <android.support.v7.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right"
+                android:layout_marginLeft="220dp"
+                android:id="@+id/btn_account"
+                android:layout_gravity="right" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"
+                android:text="Terms $ Condition"
+                />
+            <android.support.v7.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right"
+                android:layout_marginLeft="200dp"
+                android:id="@+id/btn_accoun"
+                android:layout_gravity="right" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_marginLeft="5dp"
+                android:text="Account Setting"
+                />
+            <android.support.v7.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right"
+                android:layout_marginLeft="220dp"
+                 android:layout_gravity="right" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"
+                android:text="Read FAQs"
+                />
+            <android.support.v7.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_right"
+                android:layout_marginLeft="250dp"
+                 android:layout_gravity="right" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

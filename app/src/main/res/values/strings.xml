@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="facebook_app_id">2163342193761181</string>
+    <string name="fb_login_protocol_scheme">fb2163342193761181</string>
+    <string name="description">A day spa is a business that provides a variety of services for the purpose of improving health, beauty and relaxation through personal care treatments such as hair, massages and facials</string>
+    <string name="information">Automobile Technician Mechanic Job Duties: Keeps equipment available for use by inspecting and testing vehicles;  engine tune-ups, oil changes, tire rotation.</string>
+    <string name="spa_info">A day spa is a business that provides a variety of services for the purpose of improving health, beauty and relaxation through personal care treatments such as hair, massages and facials</string>
+    <string name="haircut">Automobile Technician Mechanic Job Duties: Keeps equipment available for use by inspecting and testing vehicles;  engine tune-ups, oil changes, tire rotation.</string>
+
+</resources>
