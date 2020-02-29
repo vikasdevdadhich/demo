@@ -48,7 +48,7 @@ import java.util.List;
 import java.util.Map;
 
 public class abc extends AppCompatActivity {
-     private static final String URL_PRODUCTS = "http://192.168.1.102/offer.php";
+     private static final String URL_PRODUCTS = "http://192.168.1.107/offer.php";
 public RecyclerView recyclerView;
     CardView cardView, cardView1, cardView2, cardView3, cardView4, cardView5, cardView6,cardView7,cardView8,cardView9,cardView10,cardView11,cardView12;
     int data = 1;

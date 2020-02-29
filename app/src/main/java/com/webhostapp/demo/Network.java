@@ -81,8 +81,8 @@ ReResponseListener ReResponseListener;
         if(progressDialog.isShowing())
             progressDialog.dismiss();
         if(!error) {
-            //responseListener.responseReceived(page, s);
-            ReResponseListener.ReResponseReceived(page,s);
+            responseListener.responseReceived(page, s);
+            //ReResponseListener.ReResponseReceived(page,s);
         }else{
             Toast.makeText(context.getApplicationContext(), s, Toast.LENGTH_SHORT).show();
         }

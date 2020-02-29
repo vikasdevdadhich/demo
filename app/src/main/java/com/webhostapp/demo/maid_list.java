@@ -28,7 +28,7 @@ public class maid_list extends AppCompatActivity {
     String religion = "abd", time = "abd", approach = "abd", gender = "abd";
     //this is the JSON Data URL
     //make sure you are using the correct ip else it will not work
-    private static final String URL_PRODUCTS = "http://192.168.1.105/api.php";
+    private static final String URL_PRODUCTS = "http://192.168.1.107/api.php";
     CardView cardView;
     //a list to store all the products
     List<Maid> productList;
